@@ -20,5 +20,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Ejecutar tests
-        run: pytest
+      - name: Ejecutar tests suma
+        run: tests/test_suma.py
+      - name: Ejecutar tests resta
+        run: tests/test_resta.py
+      - name: Ejecutar tests division
+        run: tests/test_div.py
+      - name: Ejecutar tests multiplicacion
+        run: tests/test_multi.py
