@@ -2,7 +2,7 @@ import pytest
 
 from ejercicios.operaciones import suma
 
-class SumaTestClass:
+class TestClass:
 
     def test_suma(self):
         assert suma(4,5) == 9

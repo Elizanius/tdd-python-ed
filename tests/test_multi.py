@@ -2,7 +2,7 @@ import pytest
 
 from ejercicios.operaciones import mult
 
-class SumaTestClass:
+class TestClass:
 
     def test_mult(self):
         assert mult(4,5) == 20

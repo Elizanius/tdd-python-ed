@@ -2,7 +2,7 @@ import pytest
 
 from ejercicios.operaciones import resta
 
-class SumaTestClass:
+class TestClass:
 
     def test_resta(self):
         assert resta(9,5) == 4
